@@ -18,6 +18,9 @@ description = "Macros for creating fixed-point constants for types in the `fixed
 keywords = ["mathematics", "numerics", "fixed"]
 categories = ["algorithms", "data-structures", "science"]
 
+[workspace]
+members = [".", "impl", "types"]
+
 [dependencies]
 fixed = "1"
 fixed-macro-impl = { version = "1.1.1", path = "impl" }  # !V
